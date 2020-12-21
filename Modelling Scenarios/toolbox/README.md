@@ -14,3 +14,7 @@ The epidemiological situation presentation below is based on a SIRV (Susceptible
 The model is intended to provide a quick overvire of the effect of the control and vaccination strategies in the various countries. It is not intended to represent the real situation and should not be used to provide estimates of future trends.
 
 
+
+##
+
+
