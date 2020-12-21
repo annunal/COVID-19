@@ -1,0 +1,16 @@
+
+# Toolbox of modelling COVID-19 tools 
+
+
+[![GitHub license](https://img.shields.io/badge/License-Creative%20Commons%20Attribution%204.0%20International-blue)](https://github.com/ec-jrc/COVID-19/blob/master/LICENSE)
+[![GitHub commit](https://img.shields.io/github/last-commit/ec-jrc/COVID-19)](https://github.com/ec-jrc/COVID-19/commits/master)
+
+## Introduction
+The objective of this section is to illustrate the various elements of the scenario modelling that have been provided in the report:  'Scenarios for targeted and local COVID-19 Non Pharmaceutical Intervention Measures' , developed by JRC and provided in this folder. 
+
+## Toobox application
+The epidemiological situation presentation below is based on a SIRV (Susceptible, Infected, Recovered, Vaccinated) model initialized with values calibrated with the countries epidemiological data of the last 2 weeks.
+
+The model is intended to provide a quick overvire of the effect of the control and vaccination strategies in the various countries. It is not intended to represent the real situation and should not be used to provide estimates of future trends.
+
+
