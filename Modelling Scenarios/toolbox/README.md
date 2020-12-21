@@ -18,31 +18,31 @@ The model is intended to provide a quick overvire of the effect of the control a
 ## Model description
 The SIRC model is composed of a number of partial differential equations that represent the variation for each compartment.  In particular
 
-  dS/dt=-r<sub>0</sub>/T<sub>recov</sub> S/N (I+I<sub>v</sub>) + dVdt &mu;
+  - dS/dt=-r<sub>0</sub>/T<sub>recov</sub> S/N (I+I<sub>v</sub>) + dVdt &mu;
   
-  dS<sub>v</sub>/dt=-r<sub>0</sub>/T<sub>recov</sub> S<sub>v</sub>/N (I+I<sub>v</sub>) + dVdt &mu; (1- &eta;)
+  - dS<sub>v</sub>/dt=-r<sub>0</sub>/T<sub>recov</sub> S<sub>v</sub>/N (I+I<sub>v</sub>) + dVdt &mu; (1- &eta;)
   
-  dI/dt=r<sub>0</sub>/T<sub>recov</sub> S/N (I+I<sub>v</sub>) - 1/T<sub>recov</sub> I
+  - dI/dt=r<sub>0</sub>/T<sub>recov</sub> S/N (I+I<sub>v</sub>) - 1/T<sub>recov</sub> I
   
-  dI<sub>v</sub>/dt=r<sub>0</sub>/T<sub>recov</sub> S<sub>v</sub>/N (I+I<sub>v</sub>) - 1/T<sub>recov</sub> I<sub>v</sub>
+  - dI<sub>v</sub>/dt=r<sub>0</sub>/T<sub>recov</sub> S<sub>v</sub>/N (I+I<sub>v</sub>) - 1/T<sub>recov</sub> I<sub>v</sub>
   
-  dR/dt=1/T<sub>recov</sub> (I+I<sub>v</sub>) + dV/dt &mu; &eta;
+  - dR/dt=1/T<sub>recov</sub> (I+I<sub>v</sub>) + dV/dt &mu; &eta;
   
-  dF/dt=cfr dI/dt
+  - dF/dt=cfr dI/dt
 
 where:
 
-  S are the susceptiple people
+  - S are the susceptiple people
 
-  S<sub>v</sub> are the susceptible people that has been vaccinated and that can be infected with mild symptoms
+  - S<sub>v</sub> are the susceptible people that has been vaccinated and that can be infected with mild symptoms
 
-  I are the infected people
+  - I are the infected people
 
-  I<sub>v</sub> are the infected people, vaccinated, with mild symptoms
+  - I<sub>v</sub> are the infected people, vaccinated, with mild symptoms
 
-  R are the recovede people
+  - R are the recovede people
 
-  F are the fatalities
+  - F are the fatalities
 
 The various parameters of the interface are used to intialize and to control the implementation of lockdown or the release.
 
