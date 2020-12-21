@@ -18,7 +18,7 @@ The model is intended to provide a quick overvire of the effect of the control a
 ## Model description
 The SIRC model is composed of a number of partial differential equations that represent the variation for each compartment.  In particular
 
-dS/dt=-r<sub>0</sub>/T<subrecov</sub> S/N (I+I<sub>v</sub>) + dVdt &mu; (1- &eta;)
+dS/dt=-r<sub>0</sub>/T<sub>recov</sub> S/N (I+I<sub>v</sub>) + dVdt &mu; (1- &eta;)
 
 
 
