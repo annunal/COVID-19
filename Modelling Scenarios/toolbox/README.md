@@ -31,17 +31,18 @@ The SIRC model is composed of a number of partial differential equations that re
   dF/dt=cfr dI/dt
 
 where:
-S are the susceptiple people
 
-S<sub>v</sub> are the susceptible people that has been vaccinated and that can be infected with mild symptoms
+  S are the susceptiple people
 
-I are the infected people
+  S<sub>v</sub> are the susceptible people that has been vaccinated and that can be infected with mild symptoms
 
-I<sub>v</sub> are the infected people, vaccinated, with mild symptoms
+  I are the infected people
 
-R are the recovede people
+  I<sub>v</sub> are the infected people, vaccinated, with mild symptoms
 
-F are the fatalities
+  R are the recovede people
+
+  F are the fatalities
 
 The various parameters of the interface are used to intialize and to control the implementation of lockdown or the release.
 
