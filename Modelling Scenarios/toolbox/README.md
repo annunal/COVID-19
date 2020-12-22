@@ -26,7 +26,7 @@ The SIRV compartmental model is composed of a number of partial differential equ
   
   - dI/dt=r<sub>t</sub>/T<sub>recov</sub> S/N (I+I<sub>v</sub>) - 1/T<sub>recov</sub> I
   
-  - dI<sub>v</sub>/dt=r<sub>0</sub>/T<sub>recov</sub> S<sub>v</sub>/N (I+I<sub>v</sub>) - 1/T<sub>recov</sub> I<sub>v</sub>
+  - dI<sub>v</sub>/dt=r<sub>t</sub>/T<sub>recov</sub> S<sub>v</sub>/N (I+I<sub>v</sub>) - 1/T<sub>recov</sub> I<sub>v</sub>
   
   - dR/dt=1/T<sub>recov</sub> (I+I<sub>v</sub>) + dV/dt &mu; &eta;
   
@@ -48,7 +48,7 @@ where:
   
   - V are the people vaccinated
   
- Other parameters are: r<sub>t</sub> is the Reproduction number, T<sub>recov</sub> is the recovery time, N is the total population, &mu; is the vaccination efficiency, &eta; is the fraction of immunization respect to milt symptoms, cfr is the fatality ratio (dF/dT)/(dI/dt)
+ Other parameters are: r<sub>t</sub> is the Reproduction number, T<sub>recov</sub> is the recovery time, N is the total population, &mu; is the vaccination efficiency, &eta; is the fraction of immunization respect to milt symptoms, cfr is the fatality ratio (dF/dT)/(dI/dt) and vaccPerDay is the number of people vaccinated every day (= 1/TvaccPeriod).
 
 The various parameters of the interface are used to intialize and to control the implementation of lockdown or the release.
 
