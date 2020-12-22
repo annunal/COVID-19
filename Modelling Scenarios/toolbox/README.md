@@ -1,5 +1,5 @@
 
-# Toolbox of modelling COVID-19 tools 
+# COVID-19 Scenario modelling toolbox 
 
 
 [![GitHub license](https://img.shields.io/badge/License-Creative%20Commons%20Attribution%204.0%20International-blue)](https://github.com/ec-jrc/COVID-19/blob/master/LICENSE)
@@ -76,3 +76,7 @@ By activating this checkbox, the Vaccination strategy is implemented with the pa
 - Start day of vaccination: Press the down arrow key to interact with the calendar and select a date. Press the question mark key to get the keyboard shortcuts for changing dates. It indicates the starting day of the vaccination
 - Fraction of immunized that don’t transmit (%): It is unknown whether the vaccine is effective to limit transmission. The parameter “Fraction of immunized that don’t transmit” allows to make assumptions. We further assume a homogeneous population
 
+## Mobility data and Rt
+One of the plots in the page is related to the comparison between the reproduction number and the mobility indicator. 
+
+The indicator chosen for the mobility is a combination of the ![Google mobility indicators](https://www.google.com/covid19/mobility/)
