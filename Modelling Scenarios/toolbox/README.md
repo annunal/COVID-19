@@ -47,7 +47,10 @@ where:
 
 The various parameters of the interface are used to intialize and to control the implementation of lockdown or the release.
 
+## Application Controls
+It is possible to activate the <b>Control Strategy</b> by clicking on the dedicated checkbox.  The control is based on the estimated number of ICU occupancy.
 
+Considering the increase of the number of cases the introduction of NPI measures is considered when the estimated percentage of ICU occupied reaches the value of <b>Lock percentage</b>; as a consequence of the imposed NPIs the number of cases, and thus the ICU occupancy, after a while starts to decrease. When the percentage drops below the <b>Unlock percentage</b>, the NPI measures are lifted. Again, when the value overpasses the Lock percentage a new lockdown should start but this is not done if a minimum number of days is not yet passed. The idea is that during very frequently lockdown and releases, it is not possible to lock again only few days after the unlock has been achieved (minimum interval Minter), for economy and social considerations.
 
 
 
