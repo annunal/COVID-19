@@ -54,4 +54,14 @@ Considering the increase of the number of cases the introduction of NPI measures
 
 ![Control strategy](https://github.com/annunal/COVID-19/blob/master/Modelling%20Scenarios/toolbox/controlCurve.PNG)
 
+By activating this checkbox the control strategy is applied with the parameters defined on the right. Please note that ICU max capacity is related to 2019 data but you can change it by varying the value in the box below.
+
+The following controls are available:
+
+- Max ICU lock (%):It indicates the percentage of ICU occupancy at which the implementation of NPI policies is started.
+- Min ICU release (%): It indicates the percentage of ICU occupancy at which the NPI policies are lifted.
+- Waiting Time between lock/unclok (days): It indicates the number of days that will pass after a policy implementation or after a release of policy
+- Target Rt: It represents the Rt that is aimed during the implementation of NPI measures. It may be obtained with cocktail of different NPI measures
+- Release Rt: It is the Rt when the NPI measures are lifted. It cannot overpass the initial R0 value of 3.5
+
 
