@@ -79,4 +79,15 @@ By activating this checkbox, the Vaccination strategy is implemented with the pa
 ## Mobility data and Rt
 One of the plots in the page is related to the comparison between the reproduction number and the mobility indicator. 
 
-The indicator chosen for the mobility is a combination of the [Google mobility indicators](https://www.google.com/covid19/mobility/)
+The indicator chosen for the mobility <b>GMI</b>is a combination of the [Google mobility indicators](https://www.google.com/covid19/mobility/) to take into account the various contributions: In particular, Google provides the following parameters:
+- retail_and_recreation
+- grocery_and_pharmacy
+- parks
+- transit_stations
+- workplaces
+- residential
+and are combiled as follows
+
+GMI= 0.25 * (retail_and_recreation)+ 0.2* (grocery_and_pharmacy) + 0.1*(parks) + 0.2* (transit_stations)+0.2*(workplaces)-0.05*(residential)
+
+
