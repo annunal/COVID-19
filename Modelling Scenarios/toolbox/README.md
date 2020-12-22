@@ -79,4 +79,4 @@ By activating this checkbox, the Vaccination strategy is implemented with the pa
 ## Mobility data and Rt
 One of the plots in the page is related to the comparison between the reproduction number and the mobility indicator. 
 
-The indicator chosen for the mobility is a combination of the ![Google mobility indicators](https://www.google.com/covid19/mobility/)
+The indicator chosen for the mobility is a combination of the [Google mobility indicators](https://www.google.com/covid19/mobility/)
