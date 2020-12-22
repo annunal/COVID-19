@@ -5,13 +5,12 @@
 [![GitHub license](https://img.shields.io/badge/License-Creative%20Commons%20Attribution%204.0%20International-blue)](https://github.com/ec-jrc/COVID-19/blob/master/LICENSE)
 [![GitHub commit](https://img.shields.io/github/last-commit/ec-jrc/COVID-19)](https://github.com/ec-jrc/COVID-19/commits/master)
 
-## Introduction
-The objective of this section is to illustrate the various elements of the scenario modelling that have been provided in the report:  'Scenarios for targeted and local COVID-19 Non Pharmaceutical Intervention Measures' , developed by JRC and provided in this folder. 
-
 ## Toobox application
+A platform has been established by the JRC to allow users to estimate the COVID-19 epidemiological behaviour with the JRC model (SIRV).  The platform is interactive and allows to choose the parameters and to see immediately their effect on the number of positive cases, ICUs, fatalities etc . The tool also allows to see the effect of the vaccination by changing the vaccination parameters (efficiency, period, percentage of population accepting the vaccination, etc.).  The platform also shows interactive graphs of Reproduction number compared with Google Mobility data. The output is a series of graphs and summary tables. The results can also be downloaded for further analyses. 
+
 The epidemiological situation presentation below is based on a SIRV (Susceptible, Infected, Recovered, Vaccinated) model initialized with values calibrated with the countries epidemiological data of the last 2 weeks.
 
-The model is intended to provide a quick overvire of the effect of the control and vaccination strategies in the various countries. It is not intended to represent the real situation and should not be used to provide estimates of future trends.
+The model is intended to provide a quick overview of the effect of the control and vaccination strategies in the various countries. *It is not intended to represent the real situation and should not be used to provide estimates of future trends.*
 
 The application can be run here:  http://croma.pythonanywhere.com/
 
