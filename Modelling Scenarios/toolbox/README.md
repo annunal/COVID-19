@@ -16,8 +16,10 @@ The application can be run here:  http://croma.pythonanywhere.com/
 
 
 ## Model description
-The SIRC model is composed of a number of partial differential equations that represent the variation for each compartment.  In particular
+The SIRV compartmental model is composed of a number of partial differential equations that represent the variation for each compartment.  In particular
 
+  - dV/dt=vaccPerDay*N*vaccEff
+  
   - dS/dt=-r<sub>0</sub>/T<sub>recov</sub> S/N (I+I<sub>v</sub>) + dVdt &mu;
   
   - dS<sub>v</sub>/dt=-r<sub>0</sub>/T<sub>recov</sub> S<sub>v</sub>/N (I+I<sub>v</sub>) + dVdt &mu; (1- &eta;)
