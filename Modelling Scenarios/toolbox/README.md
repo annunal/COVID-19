@@ -18,13 +18,13 @@ The application can be run here:  http://croma.pythonanywhere.com/
 ## Model description
 The SIRV compartmental model is composed of a number of partial differential equations that represent the variation for each compartment.  In particular
 
-  - dV/dt=vaccPerDay*N*vaccEff
+  - dV/dt=vaccPerDay*N
   
-  - dS/dt=-r<sub>0</sub>/T<sub>recov</sub> S/N (I+I<sub>v</sub>) + dVdt &mu;
+  - dS/dt=-r<sub>t</sub>/T<sub>recov</sub> S/N (I+I<sub>v</sub>) + dVdt &mu;
   
-  - dS<sub>v</sub>/dt=-r<sub>0</sub>/T<sub>recov</sub> S<sub>v</sub>/N (I+I<sub>v</sub>) + dVdt &mu; (1- &eta;)
+  - dS<sub>v</sub>/dt=-r<sub>t</sub>/T<sub>recov</sub> S<sub>v</sub>/N (I+I<sub>v</sub>) + dVdt &mu; (1- &eta;)
   
-  - dI/dt=r<sub>0</sub>/T<sub>recov</sub> S/N (I+I<sub>v</sub>) - 1/T<sub>recov</sub> I
+  - dI/dt=r<sub>t</sub>/T<sub>recov</sub> S/N (I+I<sub>v</sub>) - 1/T<sub>recov</sub> I
   
   - dI<sub>v</sub>/dt=r<sub>0</sub>/T<sub>recov</sub> S<sub>v</sub>/N (I+I<sub>v</sub>) - 1/T<sub>recov</sub> I<sub>v</sub>
   
@@ -45,6 +45,10 @@ where:
   - R are the recovede people
 
   - F are the fatalities
+  
+  - V are the people vaccinated
+  
+ Other parameters are: r<sub>t</sub> is the Reproduction number, T<sub>recov</sub> is the recovery time, N is the total population, &mu; is the vaccination efficiency, &eta; is the fraction of immunization respect to milt symptoms, cfr is the fatality ratio (dF/dT)/(dI/dt)
 
 The various parameters of the interface are used to intialize and to control the implementation of lockdown or the release.
 
