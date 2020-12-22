@@ -55,7 +55,7 @@ Considering the increase of the number of cases the introduction of NPI measures
 
 ![Control strategy](https://github.com/annunal/COVID-19/blob/master/Modelling%20Scenarios/toolbox/controlCurve.PNG)
 
-By activating this checkbox the control strategy is applied with the parameters defined on the right. Please note that ICU max capacity is related to 2019 data but you can change it by varying the value in the box below.
+By activating this checkbox the control strategy is applied with the parameters defined on the right. *Please note that ICU max capacity is related to 2019 data but you can change it by varying the value in the box below.*
 
 The following controls are available:
 
@@ -88,6 +88,11 @@ The indicator chosen for the mobility <b>GMI</b>is a combination of the [Google 
 - residential
 and are combiled as follows
 
-GMI= 0.25 * (retail_and_recreation)+ 0.2* (grocery_and_pharmacy) + 0.1*(parks) + 0.2* (transit_stations)+0.2*(workplaces)-0.05*(residential)
+GMI= 0.25 * (retail_and_recreation)+ 0.2* (grocery_and_pharmacy) + 0.1*(parks) + 0.2* (transit_stations)+ 0.2*(workplaces)-0.05*(residential)
 
+the weights given to the various parameters have been arbitrarily assumed. 
 
+## Summary tables
+On the left a number of important parameters are included to summarize the initial conditions and the controls actuated.  An Output table indicates the main parameters of the results.
+
+All the results, including those tables, can be downloaded for further use as Comma Separated Values format (CSV). 
