@@ -17,7 +17,7 @@ The application can be run here:  http://croma.pythonanywhere.com/
 
 ## Model description
 The SIRV compartmental model is composed of a number of partial differential equations that represent the variation for each compartment.  In particular
-
+<pre>
   - dV/dt=vaccPerDay*N
   
   - dS/dt=-r<sub>t</sub>/T<sub>recov</sub> S/N (I+I<sub>v</sub>) + dVdt &mu;
@@ -31,7 +31,7 @@ The SIRV compartmental model is composed of a number of partial differential equ
   - dR/dt=1/T<sub>recov</sub> (I+I<sub>v</sub>) + dV/dt &mu; &eta;
   
   - dF/dt=cfr dI/dt
-
+</pre>
 where:
 
   - S are the susceptiple people
