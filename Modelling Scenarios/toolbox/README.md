@@ -58,6 +58,9 @@ It is possible to activate the <b>Control Strategy</b> by clicking on the dedica
 
 Considering the increase of the number of cases the introduction of NPI measures is considered when the estimated percentage of ICU occupied reaches the value of <b>Lock percentage</b>; as a consequence of the imposed NPIs the number of cases, and thus the ICU occupancy, after a while starts to decrease. When the percentage drops below the <b>Unlock percentage</b>, the NPI measures are lifted. Again, when the value overpasses the Lock percentage a new lockdown should start but this is not done if a minimum number of days is not yet passed (<b>Minter</b>). The idea is that during very frequently lockdown and releases, it is not possible to lock again only few days after the unlock has been achieved (minimum interval Minter), for economy and social considerations.
 
+<p float="left">
+  <img src="https://github.com/annunal/COVID-19/blob/master/Modelling%20Scenarios/toolbox/controlCurve.PNG" width="100" />
+</p>
 ![Control strategy](https://github.com/annunal/COVID-19/blob/master/Modelling%20Scenarios/toolbox/controlCurve.PNG)
 
 
