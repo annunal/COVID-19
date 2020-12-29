@@ -60,6 +60,7 @@ Considering the increase of the number of cases the introduction of NPI measures
 
 ![Control strategy](https://github.com/annunal/COVID-19/blob/master/Modelling%20Scenarios/toolbox/controlCurve.PNG)
 
+
 By activating this checkbox the control strategy is applied with the parameters defined on the right. *Please note that ICU max capacity is related to 2019 data but you can change it by varying the value in the box below.*
 
 The following controls are available:
@@ -82,6 +83,7 @@ By activating this checkbox, the Vaccination strategy is implemented with the pa
 - Fraction of immunized that don’t transmit (%): It is unknown whether the vaccine is effective to limit transmission. The parameter “Fraction of immunized that don’t transmit” allows to make assumptions. We further assume a homogeneous population
 
 When the Vaccination checkbox is activated, the programme uses the above parameters to compute the vaccination overt time. However it is also possible to provide a time dependent curve of the vaccination rate and efefctiveness; in that case the Start date, Vaccination months and Vaccination efficiency are not used because are defined in the Vaccination curves. The curves can be saved and recalled when needed .
+![Vaccination curve example](https://github.com/annunal/COVID-19/blob/master/Modelling%20Scenarios/toolbox/vaccCurve.png)
 
 ## Mobility data and Rt
 One of the plots in the page is related to the comparison between the reproduction number and the mobility indicator. 
