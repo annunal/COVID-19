@@ -70,6 +70,7 @@ The following controls are available:
 - Waiting Time between lock/unclok (days): It indicates the number of days that will pass after a policy implementation or after a release of policy
 - Target Rt: It represents the Rt that is aimed during the implementation of NPI measures. It may be obtained with cocktail of different NPI measures
 - Release Rt: It is the Rt when the NPI measures are lifted. It cannot overpass the initial R0 value of 3.5
+![Controls](https://github.com/annunal/COVID-19/blob/master/Modelling%20Scenarios/toolbox/Controls.png)
 
 ### Vaccination controls
 It is possible to activate the <b>vaccination</b> by clicking on the dedicated checkbox.  The following controls can be modified:
