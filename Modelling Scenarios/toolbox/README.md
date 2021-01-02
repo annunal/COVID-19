@@ -91,7 +91,9 @@ By activating this checkbox, the Vaccination strategy is implemented with the pa
 When the Vaccination checkbox is activated, the programme uses the above parameters to compute the vaccination overt time. However it is also possible to provide a time dependent curve of the vaccination rate and efefctiveness; in that case the Start date, Vaccination months and Vaccination efficiency are not used because are defined in the Vaccination curves. The curves can be saved and recalled when needed .
 ![Vaccination curve example](https://github.com/annunal/COVID-19/blob/master/Modelling%20Scenarios/toolbox/vaccCurve.png)
 
-The last two plots below indicate the overall vaccinations (efefctive, expected) and the daily values of the same quantities.  The data for the effective vacccinations are obtained from: [Vaccination Data](https://ourworldindata.org/covid-vaccinations)
+The sources for the vaccination plans are from National Health Ministries web sites, if available.
+
+The last two plots below indicate the overall vaccinations (effctive, expected) and the daily values of the same quantities.  The data for the effective vacccinations are obtained from: [Vaccination Data](https://ourworldindata.org/coveid-vaccinations)
 
 ## Mobility data and Rt
 One of the plots in the page is related to the comparison between the reproduction number and the mobility indicator. 
