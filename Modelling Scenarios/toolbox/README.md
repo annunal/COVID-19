@@ -93,7 +93,7 @@ When the Vaccination checkbox is activated, the programme uses the above paramet
 
 The sources for the vaccination plans are from National Health Ministries web sites, if available.
 
-The last two plots below indicate the overall vaccinations (effctive, expected) and the daily values of the same quantities.  The data for the effective vacccinations are obtained from: [Vaccination Data](https://ourworldindata.org/coveid-vaccinations)
+The last two plots below indicate the overall vaccinations (effctive, expected) and the daily values of the same quantities.  The data for the effective vacccinations are obtained from: [Vaccination Data](https://ourworldindata.org/covid-vaccinations)
 
 ## Mobility data and Rt
 One of the plots in the page is related to the comparison between the reproduction number and the mobility indicator. 
