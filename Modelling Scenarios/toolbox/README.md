@@ -119,6 +119,7 @@ Finally an equivalent Rt is estimated using  a function calibrated on the data:
 
 Rt<sub>mob</sub>=0.35*exp<sup>GMI<sub>norm</sub>*0.51</sub>
 
+Last but not least, the value that is obtained is shifted by 15 days beacause the analysis shows that this is the average time for the contagion to become effective and therefore changes in the mobility (ioncrease-> more contagion,  decrease -> less contagion) become evident after a time period, here assumed in 15 days. It can be seen from the plots that the coherence between mobility and epidemics is quite clear during and just after the main waves while during the stagnant periods (i.e. summer 2020) the agreement is not present. 
 
 This is the value that is shown compared with the Rt estimated from epidemiological parameters.
 
