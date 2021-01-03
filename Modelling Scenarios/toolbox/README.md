@@ -111,6 +111,18 @@ GMI= 0.25 * (retail_and_recreation)+ 0.2* (grocery_and_pharmacy) + 0.1*(parks) +
 
 the weights given to the various parameters have been arbitrarily assumed. 
 
+
+Once the mobility parameter is obtained is also normalized respect to its min and max value:
+GMI<sub>norm</sub>=(GMI-GMI<sub>min</sub>)/(GMI<sub>max</sub>-GMI<sub>min</sub>)*4.0
+
+
+Finally an equivalent Rt is estimated using  a function calibrated on the data:
+Rt<sub>mob</sub>=0.35*exp<sup>GMI<sub>norm</sub>*0.51</sub>
+
+
+This is the value that is shown compared with the Rt estimated from epidemiological parameters.
+
+
 ## Summary tables
 On the left a number of important parameters are included to summarize the initial conditions and the controls actuated.  An Output table indicates the main parameters of the results.
 
