@@ -20,7 +20,7 @@ The SIRV compartmental model is composed of a number of partial differential equ
 <pre>
   - dV/dt=vaccPerDay*N
   
-  - dS/dt=-r<sub>t</sub>/T<sub>recov</sub> S/N (I+I<sub>v</sub>) + dVdt &mu;
+  - dS/dt=-r<sub>t</sub>/T<sub>recov</sub> S/N (I+I<sub>v</sub>) - dVdt &mu;
   
   - dS<sub>v</sub>/dt=-r<sub>t</sub>/T<sub>recov</sub> S<sub>v</sub>/N (I+I<sub>v</sub>) + dVdt &mu; (1- &eta;)
   
